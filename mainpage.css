@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ .header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+ul.horizontalnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    border: 2px, solid, darkgrey;
+    background-color: whitesmoke;
+
+}
+
+.horizontalnavbar li a {
+    float: left;
+    display: block;
+    color: lightslategrey;
+    text-align: center;
+    padding: 1%;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 1.25em;
+    width: 22%;
+    font-weight: bold;
+
+}
+
+.horizontalnavbar .active {
+    color: whitesmoke;
+    background-color: grey;
+}
+
+.message {
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(255, 225, 56);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    left: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.close {
+    font-size: 2em;
+    float: right;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.contactinfo {
+    width: 24%;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 0;
+    overflow: auto;
+    margin: 0;
+    position: fixed;
+    margin-top: 0%;
+    z-index: -1;
+
+}
+
+.mainpagetext {
+    color: grey;
+    margin-left: 25%;
+    margin-top: 0%;
+    padding: 2%;
+    height: 100%;
+    font-size: larger;
+    
+}
